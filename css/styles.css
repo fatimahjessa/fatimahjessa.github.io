@@ -1,0 +1,144 @@
+/* COLOUR
+#9EAE70 - green
+#DCE1CB - light green
+#849AC1 - blue
+#E4E9F1 - light blue
+#484847 - dark grey
+#E8E8EA - light grey
+#C2C2C1 - medium grey
+#FFFFFF - white*/
+
+/* Global Styles
+/* --------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+body {
+  color: #484847;
+  font-family: 'Poppins', sans-serif;
+  word-spacing: .1rem;
+}
+a {
+  color: #849AC1;
+  display: inline-block;
+  font-weight: bolder;
+  text-decoration: none;
+}
+/* a:link {                           WHAT IS THE POINT OF THIS "link" ???
+  text-decoration: none;
+} */
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: #849AC1;
+  letter-spacing: 2px;
+  font-size: 60px;
+  line-height: 15px;
+  font-weight: lighter;
+}
+h2 {
+  margin: 0;
+  color: #9EAE70;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 35px;
+}
+h3 {
+  font-weight: lighter;
+  margin: 0;
+  color: #9EAE70;
+  font-size: 24px;
+}
+p {
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: .08rem;
+    line-height: 1.7;
+}
+.content-wrap {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.clear {
+  clear: both;
+}
+/* Profile
+--------------------------------------------- */
+header {
+  padding: 90px;
+}
+header .content-wrap {
+  padding-top: 170px;
+  padding-bottom: 170px;
+}
+#desk {
+  width: 1440px;
+  height: 800px;
+  position: absolute;
+  left: 0px;
+  top: -80px;
+  z-index: -3;
+  object-fit: cover;
+  object-position: 0px;
+}
+#self {
+  border-radius: 50%;
+  float: left;
+  margin-right: 70px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  width: 200px;
+}
+
+/* Projects
+--------------------------------------------- */
+
+
+/* Work Experience
+--------------------------------------------- */
+.work-experience {
+  background: #E4E9F1;
+}
+/* Education
+--------------------------------------------- */
+#mcmaster {
+  border-radius: 50%;
+  float: right;
+  margin-top: -63px;
+  width: 200px;
+  opacity: 80%;
+}
+
+/* Contact Info
+--------------------------------------------- */
+footer {
+  background: #E8E8EA;
+  font-weight: 200;
+  text-align: center;
+}
+footer h2 {
+  color: #849AC1;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+footer img:hover {
+  opacity: 75%;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.contact-list a {
+  display: inline-block;
+  padding: 5px 25px;
+}
