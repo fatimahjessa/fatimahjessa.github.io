@@ -34,10 +34,11 @@ a:hover {
   text-decoration: underline;
 }
 h1 {
+  margin: 0;
   color: #849AC1;
   letter-spacing: 2px;
   font-size: 60px;
-  line-height: 15px;
+  line-height: 65px;
   font-weight: lighter;
 }
 h2 {
@@ -60,7 +61,8 @@ p {
     line-height: 1.7;
 }
 .content-wrap {
-  width: 900px;
+  max-width: 900px;
+  width: 85%;
   margin: 0 auto;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -72,20 +74,15 @@ p {
 --------------------------------------------- */
 header {
   padding: 90px;
+  background-color: #E8E8EA;
+  background-image: url(../images/desk.jpg);
+  background-repeat: no-repeat;
+  /* background-position: bottom right; */
+  background-size: cover;
 }
 header .content-wrap {
   padding-top: 170px;
   padding-bottom: 170px;
-}
-#desk {
-  width: 1440px;
-  height: 800px;
-  position: absolute;
-  left: 0px;
-  top: -80px;
-  z-index: -3;
-  object-fit: cover;
-  object-position: 0px;
 }
 #self {
   border-radius: 50%;
@@ -142,3 +139,6 @@ footer img:hover {
   display: inline-block;
   padding: 5px 25px;
 }
+
+/* Responsive
+--------------------------------------------- */
