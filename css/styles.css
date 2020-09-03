@@ -87,7 +87,7 @@ header .content-wrap {
 }
 #self {
   border-radius: 50%;
-
+  float:left;
   margin-right: 70px;
   margin-top: 20px;
   margin-bottom: 70px;
@@ -144,8 +144,21 @@ footer img:hover {
 /* Responsive
 --------------------------------------------- */
 
-@media (min-width:850px){
+@media (max-width:850px){
   #self {
-    float: left;
+    margin-bottom: 40px;
+  }
+  header {
+    padding: 0px;
+  }
+  header p {
+    margin-bottom: 40px;
+  }
+  header .contentwrap {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #mcmaster {
+    width: 150px;
   }
 }
