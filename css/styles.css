@@ -26,11 +26,10 @@ a {
   color: #849AC1;
   display: inline-block;
   font-weight: bolder;
+}
+a:link {
   text-decoration: none;
 }
-/* a:link {                           WHAT IS THE POINT OF THIS "link" ???
-  text-decoration: none;
-} */
 a:hover {
   text-decoration: underline;
 }
@@ -78,7 +77,7 @@ header {
   background-color: #E8E8EA;
   background-image: url(../images/desk.jpg);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: top, middle;
   background-size: cover;
 }
 header .content-wrap {
@@ -108,9 +107,13 @@ header .content-wrap {
 #mcmaster {
   border-radius: 50%;
   float: right;
-  margin-top: -63px;
-  width: 200px;
+  width: 25%;
   opacity: 80%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* margin: auto; */
 }
 
 /* Contact Info
@@ -154,11 +157,12 @@ footer img:hover {
   header p {
     margin-bottom: 40px;
   }
-  header .contentwrap {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  header .content-wrap {
+    padding-top: 50px;
   }
+}
+@media (max-width:650px){
   #mcmaster {
-    width: 150px;
+    width: 33%;
   }
 }
