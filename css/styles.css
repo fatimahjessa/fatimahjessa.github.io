@@ -76,9 +76,10 @@ header {
   padding: 90px;
   background-color: #E8E8EA;
   background-image: url(../images/desk.jpg);
-  background-repeat: no-repeat;
-  background-position: top, left;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+  text-align: center;
 }
 header .content-wrap {
   padding-top: 170px;
@@ -86,11 +87,9 @@ header .content-wrap {
 }
 #self {
   border-radius: 50%;
-  float:left;
-  margin-right: 70px;
-  margin-top: 20px;
-  margin-bottom: 70px;
+  float: center;
   width: 200px;
+  margin-bottom: 30px;
 }
 
 /* Projects
@@ -102,17 +101,32 @@ header .content-wrap {
 .work-experience {
   background: #DCE1CB;
 }
+
 /* Education
 --------------------------------------------- */
+.education .content-wrap {
+  display: flex;
+}
+.bean {
+  flex: 1;
+}
+.mac {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  /* vertical-align: middle; */
+  /* display: inline; */
+}
 #mcmaster {
   border-radius: 50%;
-  /* display: flex;
-  align-items: right; */
-  /* vertical-align: center; */
-  float: right;
-  width: 25%;
+  /* float: right; */
+  width: 50%;
   opacity: 80%;
+  /* vertical-align: middle; */
+  /* display: inline; */
+  /* align-items: center; */
 }
+
 
 /* Contact Info
 --------------------------------------------- */
