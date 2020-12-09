@@ -114,13 +114,14 @@ header .content-wrap {
   width: 30%;
   display: flex;
   align-items: center;
+  flex-direction: row-reverse;
   /* vertical-align: middle; */
   /* display: inline; */
 }
 #mcmaster {
   border-radius: 50%;
   /* float: right; */
-  width: 50%;
+  width: 75%;
   opacity: 80%;
   /* vertical-align: middle; */
   /* display: inline; */
