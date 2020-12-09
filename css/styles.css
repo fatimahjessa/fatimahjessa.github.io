@@ -23,7 +23,7 @@ body {
   margin: 0px;
 }
 a {
-  color: #849AC1;
+  color: #9EAE70;
   display: inline-block;
   font-weight: bolder;
 }
@@ -35,7 +35,7 @@ a:hover {
 }
 h1 {
   margin: 0;
-  color: #849AC1;
+  color: #484847;
   letter-spacing: 2px;
   font-size: 60px;
   line-height: 65px;
@@ -77,7 +77,7 @@ header {
   background-color: #E8E8EA;
   background-image: url(../images/desk.jpg);
   background-repeat: no-repeat;
-  background-position: top, middle;
+  background-position: top, left;
   background-size: cover;
 }
 header .content-wrap {
@@ -100,20 +100,18 @@ header .content-wrap {
 /* Work Experience
 --------------------------------------------- */
 .work-experience {
-  background: #E4E9F1;
+  background: #DCE1CB;
 }
 /* Education
 --------------------------------------------- */
 #mcmaster {
   border-radius: 50%;
+  /* display: flex;
+  align-items: right; */
+  /* vertical-align: center; */
   float: right;
   width: 25%;
   opacity: 80%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /* margin: auto; */
 }
 
 /* Contact Info
